@@ -1,7 +1,7 @@
 stacks: [playground]
 regions: [eu-west-1]
 templates:
-  <name of project>:
+  sa-api-gateway-workshop:
     type: aws-lambda
     app: sa-api-gateway-workshop
     contentDirectory: sa-api-gateway-workshop
@@ -12,6 +12,6 @@ templates:
       prefixStack: false
 
 deployments:
-<name of project>-upload:
+sa-api-gateway-workshop-upload:
   template: sa-api-gateway-workshop
   actions: [uploadLambda]
