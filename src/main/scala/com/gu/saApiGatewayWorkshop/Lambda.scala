@@ -1,4 +1,4 @@
-package com.gu.<name of project>
+package com.gu.saApiGatewayWorkshop
 
 object Lambda {
 
